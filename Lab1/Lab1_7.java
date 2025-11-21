@@ -10,11 +10,13 @@ public class Lab1_7 {
         int N = scanner.nextInt();
 
         int sum = 0;
+        int i = 1;
 
-        for (int i = 1; i <= N; i++) {
+        while (i <= N) {
             System.out.print("Enter number " + i + ": ");
             int number = scanner.nextInt();
             sum += number;
+            i++;
         }
 
         System.out.println("Sum = " + sum);
